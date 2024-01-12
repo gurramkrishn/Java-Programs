@@ -17,7 +17,7 @@ class Student {
      * }
      */
     public static void main(String[] args) {
-        Student student_obj = new Student("Suresh");
+        Student student_obj = new Student("Rama");
         student_obj.getName();
 
         System.out.println("Calling the Child class of department");
