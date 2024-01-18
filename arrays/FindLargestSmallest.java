@@ -3,32 +3,26 @@ package arrays;
 public class FindLargestSmallest
 {
     public static void main(String[] args) {
-        int[] integerArray = {5, 2, 8, 1, 7};
+        int[] numbers = {10, 5, 8, 2, 7, 1, 15};
 
-        // Call the method to find largest and smallest numbers
-        int[] result = findLargestSmallest(integerArray);
+        // Initialize variables to store the min and max values
+        int min = numbers[0];
+        int max = numbers[0];
 
-        System.out.println("Largest number: " + result[0]);
-        System.out.println("Smallest number: " + result[1]);
-    }
-
-    public static int[] findLargestSmallest(int[] numbers) {
-        if (numbers == null || numbers.length == 0) {
-            return new int[]{0, 0};  // Return {0, 0} for both if the array is empty
-        }
-
-        int largest = numbers[0];
-        int smallest = numbers[0];
-
-        for (int num : numbers) {
-            if (num > largest) {
-                largest = num;
-            } else if (num < smallest) {
-                smallest = num;
+        // Iterate through the array to find min and max
+        for (int i = 1; i < numbers.length; i++) {
+            if (numbers[i] < min) {
+                min = numbers[i];
+            }
+            if (numbers[i] > max) {
+                max = numbers[i];
             }
         }
 
-        return new int[]{largest, smallest};
+        // Print the results
+        System.out.println("Smallest number: " + min);
+        System.out.println("Largest number: " + max);
+    };
     }
 
-    }
+
