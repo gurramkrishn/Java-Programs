@@ -19,7 +19,7 @@ public class CountVowels
     }
 
     // Function to count vowels in a string
-    private static int countVowels(String str) {
+    public static int countVowels(String str) {
         int count = 0;
         // Convert the string to lowercase to handle both upper and lower case vowels
         str = str.toLowerCase();

@@ -17,7 +17,7 @@ public class AnagramChecker1
     }
 
     // Function to check if two strings are anagrams
-    static boolean checkAnagrams(String str1, String str2) {
+    public static boolean checkAnagrams(String str1, String str2) {
         char[] charArray1 = str1.toCharArray();
         char[] charArray2 = str2.toCharArray();
 
