@@ -4,6 +4,7 @@ import java.util.StringTokenizer;
 
 public class ReverseWordsInSentence
 {
+    /*
     public static void main(String[] args) {
         String inputSentence = "Java J2EE Reverse Me";
         String reversedSentence = reverseWords(inputSentence);
@@ -11,6 +12,8 @@ public class ReverseWordsInSentence
         System.out.println("Output: " + reversedSentence);
     }
 
+
+     */
     // Function to reverse each word in a sentence
     public  static String reverseWords(String sentence) {
         String[] words = sentence.split("\\s+");

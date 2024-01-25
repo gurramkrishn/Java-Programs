@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class CountVowels
 {
+    /*
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -18,6 +19,8 @@ public class CountVowels
         System.out.println("Number of vowels in the string: " + vowelCount);
     }
 
+
+     */
     // Function to count vowels in a string
     public static int countVowels(String str) {
         int count = 0;

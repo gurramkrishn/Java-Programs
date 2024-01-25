@@ -4,6 +4,7 @@ import java.util.Arrays;
 
 public class AnagramChecker1
 {
+    /*
     public static void main(String[] args) {
         String str1 = "listen";
         String str2 = "silent";
@@ -14,8 +15,12 @@ public class AnagramChecker1
         } else {
             System.out.println("The strings are not anagrams.");
         }
+
+
     }
 
+
+     */
     // Function to check if two strings are anagrams
     public static boolean checkAnagrams(String str1, String str2) {
         char[] charArray1 = str1.toCharArray();
