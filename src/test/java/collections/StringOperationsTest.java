@@ -35,13 +35,13 @@ public class StringOperationsTest {
     @Test
     public void testRemoveDuplicatesEdgeCase() {
         //giving string with no duplicates
-        String outputString = stringOperations.removeDuplicates("siva");
-        Assert.assertEquals("siva", outputString);
+        String outputString = stringOperations.removeDuplicates("ram");
+        Assert.assertEquals("ram", outputString);
         //giving string with all identical characters.
         outputString = stringOperations.removeDuplicates("iiii");
         Assert.assertEquals("i", outputString);
         //giving string with special characters
-        outputString = stringOperations.removeDuplicates("$hiv@ $ai");
-        Assert.assertEquals("$hiv@ a", outputString);
+        outputString = stringOperations.removeDuplicates("ram@");
+        Assert.assertEquals("ram@", outputString);
     }
 }

@@ -14,9 +14,9 @@ public class LastObjectTest {
      */
     @Test
     public void testRemoveLastSuccess() {
-        ArrayList<String> employeeList = new ArrayList<>(Arrays.asList("Shiva", "Sai"));
+        ArrayList<String> employeeList = new ArrayList<>(Arrays.asList("ram", "krishna"));
         employeeList = lastObject.removeLastObject(employeeList);
-        Assert.assertEquals(Arrays.asList("Shiva"), employeeList);
+        Assert.assertEquals(Arrays.asList("ram"), employeeList);
         employeeList = lastObject.removeLastObject(employeeList);
         Assert.assertTrue(employeeList.isEmpty());
     }
