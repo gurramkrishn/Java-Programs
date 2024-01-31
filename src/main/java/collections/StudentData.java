@@ -33,8 +33,8 @@ public class StudentData {
      */
     public Student getStudentData(String studentName) {
         Map<String, Student> map = new HashMap<>();
-        map.put("Shiva", new Student("Shiva", "A", 3.5));
-        map.put("Sai", new Student("Sai", "B", 3.7));
+        map.put("ram", new Student("ram", "A", 3.5));
+        map.put("krishna", new Student("krishna", "B", 3.7));
         map.put("Anjuri", new Student("Anjuri", "C", 3.2));
         return  map.get(studentName);
     }
